@@ -1,5 +1,6 @@
 from binary_tree import Node
 
+
 # DFS uses a stack. A recursion uses the call stack so DFS can be done via recursion!
 def treeSum(node: Node) -> int:
     if node is None:
